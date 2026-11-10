@@ -3,7 +3,11 @@ class Solution:
 
         # Anagrams will have the exact same frequency of each word.
 
-        # Here I match a hash map that is initially all-zero with 26 spots where each spot represents a letter in the alphabet, and I iterate through each word in strs and nested in it I iterate through each letter of that word and I increment the reserved spot of the letters found in that word so that I end up with a map of letter-frequency for each word and I make that map a key in the alphabet2word dict and to its value I append each word that matches that map.
+        # Here I match a hash map that is initially all-zero with 26 spots where each spot represents
+        # a letter in the alphabet, and I iterate through each word in strs and nested in it I iterate through 
+        # each letter of that word and I increment the reserved spot of the letters found in that word so that 
+        #I end up with a map of letter-frequency for each word and I make that map a key in the alphabet2word dict 
+        # and to its value I append each word that matches that map.
 
         alphabet2word = {}
 
